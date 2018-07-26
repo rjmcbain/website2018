@@ -1,0 +1,20 @@
+{
+  "name": "rjmcbain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjmcbain/website2018.git"
+  },
+  "keywords": [],
+  "author": "RJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjmcbain/website2018/issues"
+  },
+  "homepage": "https://github.com/rjmcbain/website2018#readme"
+}
