@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rjmcbain/website2018/issues"
   },
-  "homepage": "https://github.com/rjmcbain/website2018#readme"
+  "homepage": "https://github.com/rjmcbain/website2018#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
 }
