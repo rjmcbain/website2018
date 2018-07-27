@@ -48,8 +48,8 @@ $background-opacity: 0.9;
   }
 }
 
-@mixin mediaSm {
-  @media screen and (max-width: 500px) {
+@mixin mediaXL {
+  @media screen and (min-width: 1171px) {
     @content;
   }
 }
