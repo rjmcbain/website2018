@@ -277,7 +277,4 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: repeat(1fr); }
-  main#home .text-secondary {
-    margin-left: -25px;
-    text-align: center; } }
+    grid-template-columns: repeat(1fr); } }

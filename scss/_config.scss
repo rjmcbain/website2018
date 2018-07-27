@@ -8,6 +8,14 @@ $background-opacity: 0.9;
   transition: all 0.7s ease-out;
 }
 
+@mixin center($width: null, $height: null) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  // Moar magic here...
+}
+
 @mixin background {
   @if $show-home-image {
     &#bg-img {
