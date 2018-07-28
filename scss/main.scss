@@ -190,6 +190,12 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;
+  list-style-type: none;
+}
+
+ul.social {
+  list-style-type: none;
+  display: block;
 }
 
 @import "mobile";
