@@ -235,8 +235,7 @@ main {
   list-style-type: none; }
 
 ul.social {
-  list-style-type: none;
-  display: block; }
+  list-style-type: none; }
 
 @media screen and (min-width: 1171px) {
   .projects {
