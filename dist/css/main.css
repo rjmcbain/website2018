@@ -184,6 +184,22 @@ main {
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
+#skills h2 {
+  text-align: center;
+  font-size: 5rem;
+  padding-bottom: 30px; }
+
+#skills #devicon {
+  margin: 2% 4.75%;
+  width: 9%;
+  display: inline-block;
+  padding: 10px; }
+
+#skills #iconbox {
+  width: 100%;
+  margin-left: 12.5%;
+  /* padding-left: 3.5%; */ }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;

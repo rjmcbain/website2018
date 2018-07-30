@@ -123,6 +123,26 @@ main {
   }
 }
 
+#skills {
+  h2 {
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 30px;
+  }
+  #devicon {
+    margin: 2% 4.75%;
+    width: 9%;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  #iconbox {
+    width: 100%;
+    margin-left: 12.5%;
+    /* padding-left: 3.5%; */
+  }
+}
+
 // Work/Projects
 .projects {
   display: grid;
