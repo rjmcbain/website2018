@@ -283,7 +283,9 @@ ul.social {
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  #skills h2 {
+    font-size: 3.5rem; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -319,7 +321,9 @@ ul.social {
     grid-template-columns: repeat(2, 1fr); }
   .boxes div {
     padding: 1rem 2rem;
-    font-size: 0.5rem; } }
+    font-size: 0.5rem; }
+  #skills h2 {
+    font-size: 3rem; } }
 
 @media screen and (max-width: 400px) {
   main#home h1 {

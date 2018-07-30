@@ -34,6 +34,12 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  #skills {
+    h2 {
+      font-size: 3.5rem;
+    }
+  }
 }
 
 // Tablets & Small Laptops
@@ -94,6 +100,12 @@
   .boxes div {
     padding: 1rem 2rem;
     font-size: 0.5rem;
+  }
+
+  #skills {
+    h2 {
+      font-size: 3rem;
+    }
   }
 }
 
