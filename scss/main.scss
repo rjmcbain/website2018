@@ -76,6 +76,10 @@ main {
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .about-info {
   display: grid;
   grid-gap: 30px;
