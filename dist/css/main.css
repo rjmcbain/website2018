@@ -140,7 +140,7 @@ header {
   color: #eece1a; }
 
 main {
-  padding: 4rem;
+  padding: 3rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
@@ -153,6 +153,9 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+
+body {
+  overflow-x: hidden; }
 
 .about-info {
   display: grid;
@@ -322,8 +325,13 @@ ul.social {
   .boxes div {
     padding: 1rem 2rem;
     font-size: 0.5rem; }
-  #skills h2 {
-    font-size: 3rem; } }
+  #skills {
+    display: none; }
+    #skills h2 {
+      font-size: 3rem; }
+  .about-info .bio {
+    grid-area: bio;
+    font-size: 1.15rem; } }
 
 @media screen and (max-width: 400px) {
   main#home h1 {
@@ -344,4 +352,6 @@ ul.social {
     padding: 1rem 2rem;
     font-size: 1.2rem; }
   main#home .text-secondary {
-    text-align: center; } }
+    text-align: center; }
+  #skills h2 {
+    font-size: 2rem; } }
