@@ -77,7 +77,7 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url("../img/Me-11.jpg");
+      background: url("../img/Me-10.jpg");
       width: 150px;
       height: 150px;
     }
@@ -133,6 +133,17 @@
 
     .sm-heading {
       font-size: 1.3rem;
+    }
+  }
+
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0);
+
+    .portrait {
+      background: url("../img/Me-10.jpg");
+      width: 150px;
+      height: 150px;
     }
   }
 
