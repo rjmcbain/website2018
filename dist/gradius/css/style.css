@@ -1,0 +1,362 @@
+#container {
+	
+	height: 100%;
+	margin: 0 auto;
+	position:fixed;
+   background:url(https://i.imgur.com/1JUAYEm.jpg);
+  -webkit-animation:50s scroll infinite linear;
+  -moz-animation:50s scroll infinite linear;
+  -o-animation:50s scroll infinite linear;
+  -ms-animation:50s scroll infinite linear;
+  animation:50s scroll infinite linear;
+  top:0;
+  left:0;
+  width:100%;
+ height:100%;
+background-size: cover;
+}
+
+#bgimg {
+	background-size: cover;
+	width:100%;							/*background image*/
+ height:100%;
+ margin: 0 auto;
+}
+
+@-webkit-keyframes scroll{
+  100%{
+    background-position:-3000px 0px;	/*infinite scrolling*/
+  }
+}
+
+@-moz-keyframes scroll{
+  100%{
+    background-position:-3000px 0px;	/*infinite scrolling*/
+  }
+}
+
+@-o-keyframes scroll{
+  100%{
+    background-position:-3000px 0px;	/*infinite scrolling*/
+  }
+}
+
+@-ms-keyframes scroll{
+  100%{
+    background-position:-3000px 0px;	/*infinite scrolling*/
+  }
+}
+
+@keyframes scroll{
+  100%{
+    background-position:-3000px 0px;	/*infinite scrolling*/
+  }
+}
+
+.gradius {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	/*background-size: 100%;*/
+	animation: slideshow 10s linear infinite;
+}
+
+@keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}												/*makes slide show*/
+
+@keyframes moveSlideshow {  
+  100% { 
+    -webkit-transform: translateX(-200%);  		/*infinite scrolling*/
+  }
+}
+
+body {
+	font-family: 'Press Start 2P', cursive;		/*NES Font*/
+	background-color: black;
+}
+
+p {
+	color: #fff;
+	position: absolute;
+	top: 64%;									
+	left: 5%;
+	text-align: center;
+	padding-right: 60px;
+	margin: 0 auto;
+	line-height: 155%;
+}
+
+.hard {
+	color: #fff;
+	position: absolute;
+	top: 66%;
+	left: 40%;
+	line-height: 155%;					
+	text-align: center;
+	margin: 0 auto;
+}
+
+.hard1 {
+	color: #fff;
+	position: absolute;
+	top: 35%;
+	left: 23%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 80px;
+}
+
+#player1 { 
+	position: absolute;
+	overflow: hidden;
+	top: 20%;
+	left: -20%;
+}
+
+#player2 { 
+	position: absolute;
+	overflow: hidden;
+	top: 40%;
+	left: -20%;
+}
+
+.p2 {
+	position: absolute;
+	top: 14%;
+	left: 57%;
+	font-size: 25px;
+	margin: 0 auto;
+}
+
+.p1 {
+	position: absolute;
+	top: 14%;
+	left: 27%;
+	font-size: 25px;
+	margin: 0 auto;
+}
+/*.gameboard {
+	border: 1px solid black;
+	height: 98%;
+	width: 99%;
+	opacity: .1;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+
+.obstacle {
+	border: 1px solid black;
+	width: 40px;
+	height: 200px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#goback {
+	text-align: center;
+	color: white;
+	font-size: 200px;
+	opacity: .0;
+}
+
+#back {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	color: white;
+	font-size: 200px;
+	opacity: .0;
+}
+
+#gameover {
+	position: absolute;
+	top: 35%;
+	left: 23%;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+}
+
+#winner {
+	position: absolute;
+	top: 30%;
+	left: 1%;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	line-height: 175%;
+	margin: 0 auto;
+}
+
+#thanks {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	display: inline;
+}
+
+.countdownfade {
+	position: absolute;
+	top: 15%;
+	left: 33%;
+	font-size: 500px;
+	color: white;
+	text-align: center;
+	opacity: .3;
+}
+
+#credits {
+	background-size: cover;
+	background-repeat: none;
+	width:100%;
+ 	height:100%;
+ 	margin: 0 auto;
+}
+
+button {
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	top: 30%;
+	left: 45%;
+}
+
+li {
+	font-size: 30px;
+	color: white;
+	display: inline;
+	text-decoration: none;
+}
+
+#instructions {
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	color: #fff;
+	font-size: 20px;
+}
+
+.blue {
+	position: absolute;
+	top: 70%;
+	left: 25%;
+	color: #fff;
+	font-size: 20px;
+}
+
+#boss {
+	position: absolute;
+	top: 40%;
+	left: 80%;
+}
+
+#boss2 {
+	position: absolute;			/*Hard Mode*/
+	top: 40%;
+	left: 80%;
+}
+
+#boss3 {
+	position: absolute;			/*Hard Mode*/
+	top: 40%;
+	left: 80%;
+}
+
+#boss4 {
+	position: absolute;			/*Hard Mode*/
+	top: 40%;
+	left: 80%;
+}
+
+#bossintro {
+	position: absolute;
+	top: 80%;
+	left: 80%;
+}
+
+#p1intro {
+	position: absolute;
+	top: 0%;
+	left: -30%;
+}
+
+#p2intro {
+	position: absolute;
+	top: 57%;
+	left: 130%;
+	 -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#p3intro {
+	position: absolute;
+	top: 5%;
+	left: -30%;
+}
+
+#p4intro {
+	position: absolute;
+	top: 60%;
+	left: 130%;
+	 -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+a:link{
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none
+}
+
+a:visited {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none
+}
+
+a:hove{
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none
+}
+
+a:active{
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none
+}
+
+#fighter {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+.countdown {
+	color: white;
+	font-size: 45px;
+	position: absolute;
+	top: 0%;
+	left: 90%;
+}
