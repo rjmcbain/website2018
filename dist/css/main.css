@@ -115,16 +115,14 @@
   padding: 5em 0;
   margin-bottom: 2em; }
 
-.portfolio-header:nth-of-type(1) {
-  background-image: url(../dist/img/projects/showcase.jpg);
-  background-size: cover;
-  background-position: center; }
-
 .portfolio-title-box {
   background: rgba(3, 175, 194, 0.75);
   padding: 3em 0 3em 3em;
   color: white;
-  width: 70%; }
+  width: 70%;
+  position: absolute;
+  top: 6.45%;
+  left: 2.99%; }
   .portfolio-title-box .portfolio-title {
     font-size: 3.5rem;
     display: inline-block; }
@@ -143,14 +141,13 @@
   text-align: left;
   width: 85%;
   margin: 0 auto;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  color: #000; }
 
 .portfolio-full-width {
-  width: 100vw;
-  max-width: initial;
-  margin: 2em calc(50% - 50vw);
-  height: 60vh;
-  object-fit: cover; }
+  width: 90vw;
+  margin: 40px 35px;
+  height: 80vh; }
 
 * {
   box-sizing: border-box; }
@@ -273,7 +270,6 @@ body {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
-    width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
